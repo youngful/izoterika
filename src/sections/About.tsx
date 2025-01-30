@@ -6,11 +6,11 @@ export default function About() {
 	return (
 		<section>
 			<div className='container'>
-				<h2 className='uppercase gradient_text text-center mb-[92px]'>
+				<h2 className='uppercase gradient_text text-center mb-[56px]'>
 					Програма курсу
 				</h2>
 
-				<div className='mb-[146px]'>
+				<div className='mb-[96px]'>
 					<Modules cards={ModuleList} />
 				</div>
 
@@ -18,7 +18,7 @@ export default function About() {
 					Тарифи
 				</h2>
 
-				<div className='relative mb-[146px]'>
+				<div className='relative mb-[96px]'>
 					<Image
 						src={'/images/assets-06.png'}
 						width={180}
@@ -49,7 +49,7 @@ export default function About() {
 			<h2 className='uppercase gradient_text text-center'>Відгуки</h2>
 
 			<div
-				className='bg-cover bg-center mb-[146px] py-[90px]'
+				className='bg-cover bg-center mb-[96px] 2xs:py-[40px] lg:py-[90px]'
 				style={{
 					backgroundImage:
 						"linear-gradient(to top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('/images/assets-02.png')",
@@ -81,7 +81,7 @@ export default function About() {
 				>
 					<a
 						href='#'
-						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[32px] sm:text-[55px] leading-[66px]'
+						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[16px] sm:text-[55px] leading-[66px]'
 					>
 						Telegram{' '}
 						<Image
@@ -95,7 +95,7 @@ export default function About() {
 
 					<a
 						href='#'
-						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[32px] sm:text-[55px] leading-[66px]'
+						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[16px] sm:text-[55px] leading-[66px]'
 					>
 						Facebook{' '}
 						<Image
@@ -109,7 +109,7 @@ export default function About() {
 
 					<a
 						href='#'
-						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[32px] sm:text-[55px] leading-[66px]'
+						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[16px] sm:text-[55px] leading-[66px]'
 					>
 						Instagram{' '}
 						<Image

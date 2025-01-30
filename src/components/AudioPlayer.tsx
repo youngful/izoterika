@@ -1,5 +1,6 @@
 'use client'
 import { useRef, useState } from 'react'
+import Image from 'next/image'
 
 export default function AudioPlayer({ src }: { src: string }) {
 	const audioRef = useRef<HTMLAudioElement>(null)
@@ -42,9 +43,15 @@ export default function AudioPlayer({ src }: { src: string }) {
 		<div className='relative flex items-center gap-4 w-full'>
 			<button
 				onClick={togglePlay}
-				className='2xs:w-[32px] 2xs:h-[32px] sm:w-[70px] sm:h-[70px] flex items-center justify-center bg-black text-white rounded-full absolute 2xs:top-[-75px] sm:top-[-100px] 2xs:text-[12px] sm:text-[24px]'
+				className='2xs:w-[32px] 2xs:h-[32px] sm:w-[70px] sm:h-[70px] flex items-center justify-center bg-black text-white rounded-full absolute 2xs:top-[-75px] sm:top-[-100px]'
 			>
-				{isPlaying ? '⏸' : '▶'}
+				<Image
+					src={isPlaying ? '/images/pause.svg' : '/images/play.svg'}
+					alt={isPlaying ? 'Pause' : 'Play'}
+					width={24}
+					height={24}
+					className='w-1/2 h-1/2'
+				/>
 			</button>
 
 			<div
