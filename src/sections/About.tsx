@@ -14,11 +14,11 @@ export default function About() {
 					<Modules cards={ModuleList} />
 				</div>
 
-				<h2 className='uppercase gradient_text text-center mb-[92px]'>
+				<h2 className='uppercase gradient_text text-center mb-[96px]'>
 					Тарифи
 				</h2>
 
-				<div className='relative mb-[96px]'>
+				<div className='relative mb-[140px]'>
 					<Image
 						src={'/images/assets-06.png'}
 						width={180}
@@ -74,7 +74,7 @@ export default function About() {
 				</h2>
 
 				<div
-					className='max-w-[600px] mx-auto p-[44px] bg-cover bg-center text-white mb-[100px] flex flex-col gap-[32px] rounded-[32px]'
+					className='max-w-[600px] mx-auto p-[44px] bg-cover bg-center text-white mb-[100px] flex flex-col gap-[32px] rounded-[20px]'
 					style={{
 						backgroundImage: "url('/images/assets-14.png')",
 					}}

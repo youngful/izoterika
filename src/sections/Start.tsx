@@ -8,11 +8,13 @@ export default function Start() {
 		>
 			<div className='container'>
 				<div className='flex items-center pt-[20px] justify-center font-[Playfair] text-[#00246D] 2xs:mb-[16px] xs:mb-[24px]'>
-					<div className='flex'>
-						<span className='sm:text-[54px] mr-2'>13</span>
-						<div>
-							<p className='sm:text-[32px] sm:mb-2'>модулів</p>
-							<p className='text-[#000] text-[10px] leading-[12px]'>
+					<div className='flex relative'>
+						<span className='2xs:text-[20px] sm:text-[54px] mr-2 absolute 2xs:top-[-6px] sm:top-[-16px]'>
+							13
+						</span>
+						<div className='2xs:pl-[20px] sm:pl-[50px] '>
+							<p className='2xs:text-[16px] sm:text-[32px] sm:mb-2'>модулів</p>
+							<p className='text-[#000] 2xs:text-[8px] sm:text-[10px] leading-[12px]'>
 								в програмі курсу
 							</p>
 						</div>
@@ -20,11 +22,13 @@ export default function Start() {
 
 					<span className='w-[1px] 2xs:h-[32px] 2xs:mx-[32px] sm:mx-[66px] sm:h-[48px] bg-[#3C93B5]'></span>
 
-					<div className='flex'>
-						<span className='sm:text-[54px] mr-2'>13</span>
-						<div>
-							<p className='sm:text-[32px] sm:mb-2'>тижнів</p>
-							<p className='text-[#000] text-[10px] leading-[12px]'>
+					<div className='flex relative'>
+						<span className='2xs:text-[20px] sm:text-[54px] mr-2 absolute 2xs:top-[-6px] sm:top-[-16px]'>
+							13
+						</span>
+						<div className='2xs:pl-[20px] sm:pl-[50px] '>
+							<p className='2xs:text-[16px] sm:text-[32px] sm:mb-2'>тижнів</p>
+							<p className='text-[#000] 2xs:text-[8px] sm:text-[10px] leading-[12px]'>
 								удосконалення
 							</p>
 						</div>
@@ -92,7 +96,10 @@ export default function Start() {
 						className='hidden absolute top-[300px] sm:block md:left-[70px] lg:left-[20%] z-10'
 					/>
 
-					<p className='absolute bg-gradient-to-r from-[transparent] via-[#fff] to-[transparent] lg:px-[40px] py-[10px] top-[25%] transform translate-y-[-50%] font-[Savoye] text-[#022771] z-10 sm:text-[24px] sm:leading-[28px] md:left-[100px] md:px-[10px] lg:text-[32px] lg:leading-[36px]  lg:left-[150px]'>
+					<p
+						className='absolute bg-gradient-to-r from-white to-transparent 
+    				md:from-transparent md:via-white md:to-transparent lg:px-[40px] py-[10px] top-[25%] transform translate-y-[-50%] font-[Savoye] text-[#022771] z-10 2xs:px-[5px] 2xs:left-[-20px] sm:text-[24px] sm:leading-[28px] md:left-[100px] md:px-[10px] lg:text-[32px] lg:leading-[36px]  lg:left-[150px]'
+					>
 						<i>
 							Олександр <br /> Марченко
 						</i>
@@ -109,7 +116,7 @@ export default function Start() {
 							className='relative mx-auto max-w-[350px] w-full h-auto'
 						/>
 
-						<div className='absolute bg-[#fff] w-full max-w-[492px] px-[24px] pt-[24px] pb-[75px] bottom-[32px] rounded-[32px] left-[50%] -translate-x-[50%]'>
+						<div className='absolute bg-[#fff] w-full max-w-[492px] px-[24px] pt-[24px] 2xs:pb-[50px] md:pb-[75px] 2xs:bottom-[60px] md:bottom-[0] rounded-[32px] left-[50%] -translate-x-[50%]'>
 							<p className='text-center '>
 								Навчіться <b>магії та езотеричним практикам</b>, які допоможуть
 								змінити ваше життя, <b>знайти гармонію</b> та{' '}
