@@ -3,11 +3,11 @@ import Image from 'next/image'
 export default function Start() {
 	return (
 		<section
-			className='min-h-[100vh] bg-cover bg-center mb-[146px]'
+			className='2xs:min-h-[calc(100vh - 100px)] md:min-h-[100vh] bg-cover bg-center mb-[56px]'
 			style={{ backgroundImage: "url('/images/assets-01.png')" }}
 		>
 			<div className='container'>
-				<div className='flex items-center pt-[35px] justify-center font-[Playfair] text-[#00246D] 2xs:mb-[24px] xs:mb-[42px]'>
+				<div className='flex items-center pt-[20px] justify-center font-[Playfair] text-[#00246D] 2xs:mb-[16px] xs:mb-[24px]'>
 					<div className='flex'>
 						<span className='sm:text-[54px] mr-2'>13</span>
 						<div>
@@ -18,7 +18,7 @@ export default function Start() {
 						</div>
 					</div>
 
-					<span className='w-[1px] mx-[32px] sm:mx-[66px] h-[48px] bg-[#3C93B5]'></span>
+					<span className='w-[1px] 2xs:h-[32px] 2xs:mx-[32px] sm:mx-[66px] sm:h-[48px] bg-[#3C93B5]'></span>
 
 					<div className='flex'>
 						<span className='sm:text-[54px] mr-2'>13</span>
@@ -31,7 +31,7 @@ export default function Start() {
 					</div>
 				</div>
 
-				<h4 className='text-center text-[#000] 2xs:mb-[16px] xs:mb-[36px]'>
+				<h4 className='text-center text-[#000] 2xs:mb-[4px] xs:mb-[8px]'>
 					Розкрий свою <b>внутрішню силу</b> в курсі
 				</h4>
 
@@ -39,7 +39,7 @@ export default function Start() {
 					Магія в
 				</h1>
 
-				<h1 className='uppercase text-center mb-[36px] gradient_text'>
+				<h1 className='uppercase text-center mb-[20px] gradient_text'>
 					<i>реальності</i>
 				</h1>
 
@@ -49,12 +49,12 @@ export default function Start() {
 						width={104}
 						height={100}
 						alt='icon'
-						className='absolute 2xs:-top-[25%] sm:-top-[30%] md:-top-[40%] 2xs:-right-[0] md:right-[10%] lg:right-[20%]'
+						className='absolute 2xs:top-[-35%] sm:-top-[30%] md:-top-[35%] 2xs:-right-[0] md:right-[10%] lg:right-[20%]'
 					/>
 
 					<Image
 						src={'/images/assets-09.png'}
-						width={181}
+						width={130}
 						height={100}
 						alt='icon'
 						className='absolute -top-[50px] xs:left-[-20px] sm:left-[5%] lg:left-[15%]'
@@ -65,7 +65,7 @@ export default function Start() {
 						width={91}
 						height={100}
 						alt='icon'
-						className='absolute top-[220px] xs:left-[10px] sm:left-[20%] lg:left-[25%]'
+						className='absolute top-[170px] xs:left-[10px] sm:left-[20%] lg:left-[25%] z-10'
 					/>
 
 					<Image
@@ -73,7 +73,7 @@ export default function Start() {
 						width={94}
 						height={100}
 						alt='icon'
-						className='absolute top-[100px] 2xs:right-[0] xs:right-[15%] lg:right-[25%]'
+						className='absolute top-[50px] 2xs:right-[0] xs:right-[15%] lg:right-[30%] z-10'
 					/>
 
 					<Image
@@ -81,7 +81,7 @@ export default function Start() {
 						width={110}
 						height={100}
 						alt='icon'
-						className='absolute top-[330px] 2xs:right-[0] sm:right-[50px] lg:right-[25%] z-10'
+						className='absolute top-[200px] 2xs:right-[0] sm:right-[50px] lg:right-[25%] z-10'
 					/>
 
 					<Image
@@ -89,10 +89,10 @@ export default function Start() {
 						width={120}
 						height={100}
 						alt='icon'
-						className='none top-[400px] sm:absolute md:left-[70px] lg:left-[20%] z-10'
+						className='hidden absolute top-[300px] sm:block md:left-[70px] lg:left-[20%] z-10'
 					/>
 
-					<p className='absolute bg-gradient-to-r from-[transparent] via-[#fff] to-[transparent] lg:px-[40px] py-[10px] top-[30%] transform translate-y-[-50%] font-[Savoye] text-[#022771] sm:text-[32px] sm:leading-[36px] lg:text-[44px] lg:leading-[48px] z-10 md:px-[0px] lg:left-[100px]'>
+					<p className='absolute bg-gradient-to-r from-[transparent] via-[#fff] to-[transparent] lg:px-[40px] py-[10px] top-[25%] transform translate-y-[-50%] font-[Savoye] text-[#022771] z-10 sm:text-[24px] sm:leading-[28px] md:left-[100px] md:px-[10px] lg:text-[32px] lg:leading-[36px]  lg:left-[150px]'>
 						<i>
 							Олександр <br /> Марченко
 						</i>
@@ -104,13 +104,13 @@ export default function Start() {
 						<Image
 							src='/images/assets-16.png'
 							alt='Олександр Марченко'
-							width={480}
-							height={512}
-							className='relative max-w-[480px] w-full h-auto'
+							width={400}
+							height={400}
+							className='relative mx-auto max-w-[350px] w-full h-auto'
 						/>
 
-						<div className='absolute bg-[#fff] w-full max-w-[492px] px-[32px] pt-[32px] pb-[100px] bottom-0 rounded-[32px] left-[50%] -translate-x-[50%]'>
-							<p className='text-center 2xs:text-[16px] 2xs:leading-[20px] xs:text-[20px] xs:leading-[24px]'>
+						<div className='absolute bg-[#fff] w-full max-w-[492px] px-[24px] pt-[24px] pb-[75px] bottom-[32px] rounded-[32px] left-[50%] -translate-x-[50%]'>
+							<p className='text-center '>
 								Навчіться <b>магії та езотеричним практикам</b>, які допоможуть
 								змінити ваше життя, <b>знайти гармонію</b> та{' '}
 								<b>досягти бажаного</b>

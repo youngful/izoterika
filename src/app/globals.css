@@ -70,8 +70,8 @@ body {
   color: var(--text);
   font-family: "Fixel", sans-serif;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 h1,
@@ -83,25 +83,25 @@ h3 {
 }
 
 h1{
-  font-size: 95px;
-  line-height: 88px;
+  font-size: 64px;
+  line-height: 72px;
   font-weight: 500;
 }
 
 h2{
-  font-size: 78px;
-  line-height: 72px;
+  font-size: 48px;
+  line-height: 56px;
   font-weight: 400;
 }
 
 h3{
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 32px;
+  line-height: 40px;
   font-weight: 500;
 }
 
 h4{
-  font-size: 27px;
+  font-size: 24px;
   line-height: 32px;
   font-weight: 500;
 }
@@ -117,102 +117,73 @@ li{
 }
 
 .gradient_text {
-  background: linear-gradient(to right, #0c3855, #2795c2, #0c3855);
+  background: linear-gradient(to right, #2358AD, #247CA8, #2358AD);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.primary_btn{
-  padding: 40px 0;
+.primary_btn {
+  padding: 32px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-transform: uppercase;
-  background: linear-gradient(to right, #032973, #2155a9, #032973);
-  border-radius: 20px;
+  background: linear-gradient(to right, #0F456D, #247CA8, #0F456D);
+  border-radius: 16px;
   color: #ffffff;
   font-weight: 500;
+  box-shadow: 0 8px 0 #0a344f, 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
 }
 
+.primary_btn:active {
+  box-shadow: 0 4px 0 #0a344f, 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
 @media screen and (max-width: 768px) {
+  body{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
   h1{
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 48px;
+    line-height: 56px;
   }
 
   h2{
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  h3{
     font-size: 32px;
     line-height: 40px;
   }
 
-  h4{
+  h3{
     font-size: 24px;
     line-height: 32px;
   }
- 
+
+  h4{
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  
 }
 
 @media screen and (max-width: 480px) {
   body{
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  h1{
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  h2{
-    font-size: 40px;
-    line-height: 40px;
-  }
-
-  h3{
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   h4{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
-  }
-
-  .primary_btn{
-    padding: 30px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  body{
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  h1{
-    font-size: 32px;
-    line-height: 32px;
-  } 
-
-  h2{
-    font-size: 24px;
-    line-height: 24px;
-  }
-
-  h3{
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  h4{
-    font-size: 16px;
-    line-height: 20px;
-  }
+ 
 }
