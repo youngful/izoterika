@@ -124,7 +124,7 @@ export default function Start() {
 							</p>
 
 							<a
-								className='primary_btn max-w-[calc(100%-32px)] sm:max-w-[440px] absolute left-[50%] -translate-x-[50%] -bottom-[40px] '
+								className='primary_btn max-w-[calc(100%-32px)] sm:max-w-[440px] absolute left-[50%] -translate-x-[50%] 2xs:-bottom-[30px] md:-bottom-[40px]'
 								href='#'
 							>
 								Дізнатися про курс

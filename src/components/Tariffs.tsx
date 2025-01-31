@@ -56,7 +56,7 @@ export default function Tariffs({ list }: TariffsProps) {
 					</div>
 
 					<a
-						className='primary_btn max-w-[calc(100%-80px)] absolute left-[50%] translate-x-[-50%] translate-y-[-50%] bottom-[-88px]'
+						className='primary_btn max-w-[calc(100%-80px)] absolute left-[50%] translate-x-[-50%] translate-y-[-50%] 2xs:bottom-[-64px] md:-bottom-[88px]'
 						href={item.link}
 					>
 						Отримати курс
