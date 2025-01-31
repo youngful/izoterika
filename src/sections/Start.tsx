@@ -3,11 +3,11 @@ import Image from 'next/image'
 export default function Start() {
 	return (
 		<section
-			className='2xs:min-h-[100vh] 2xs:bg-contain bg-center mb-[56px] bg-no-repeat'
+			className='2xs:bg-cover md:bg-contain bg-center mb-[56px] bg-no-repeat'
 			style={{ backgroundImage: "url('/images/assets-01.png')" }}
 		>
 			<div className='container'>
-				<div className='flex items-center 2xs:pt-[4px] xs:pt-[20px] justify-center font-[Playfair] text-[#00246D] 2xs:mb-[4px] xs:mb-[24px]'>
+				<div className='flex items-center 2xs:pt-[4px] xs:pt-[20px] justify-center font-[Playfair] text-[#00246D] 2xs:mb-[4px] xs:mb-[16px]'>
 					<div className='flex flex-col items-center'>
 						<p className='relative 2xs:pl-[20px] sm:pl-[50px] 2xs:text-[16px] sm:text-[32px] sm:mb-2'>
 							<span className='2xs:text-[20px] sm:text-[54px] mr-2 absolute 2xs:top-[-6px] sm:top-[-16px] left-0'>
@@ -35,7 +35,7 @@ export default function Start() {
 					</div>
 				</div>
 
-				<h4 className='text-center text-[#000] 2xs:mb-[0px] xs:mb-[8px]'>
+				<h4 className='text-center text-[#000] 2xs:mb-[0px] xs:mb-[4px]'>
 					Розкрий свою <b>внутрішню силу</b> в курсі
 				</h4>
 
@@ -47,7 +47,7 @@ export default function Start() {
 					<i>реальності</i>
 				</h1>
 
-				<div className='relative md:pt-[50px] md:mb-[100px]'>
+				<div className='relative md:mb-[100px]'>
 					<Image
 						src={'/images/assets-08.png'}
 						width={104}
@@ -113,7 +113,7 @@ export default function Start() {
 							alt='Олександр Марченко'
 							width={400}
 							height={400}
-							className='relative mx-auto max-w-[400px] w-full h-auto'
+							className='relative mx-auto max-w-[340px] w-full h-auto'
 						/>
 
 						<div className='absolute bg-[#fff] w-full max-w-[492px] px-[24px] pt-[24px] 2xs:pb-[50px] md:pb-[75px] 2xs:bottom-[60px] md:bottom-[0] rounded-[16px] left-[50%] -translate-x-[50%]'>
