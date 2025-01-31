@@ -81,11 +81,11 @@ export default function About() {
 				>
 					<a
 						href='#'
-						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[16px] sm:text-[55px] leading-[66px]'
+						className='2xs:py-[4px] sm:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
 					>
 						Telegram{' '}
 						<Image
-							className='2xs:w-[32px] h-[32px] sm:w-[62px] sm:h-[62px]'
+							className='2xs:w-[32px] 2xs:h-[32px] sm:w-[44px] sm:h-[44px]'
 							src={'/images/telegram.svg'}
 							width={62}
 							height={62}
@@ -95,11 +95,11 @@ export default function About() {
 
 					<a
 						href='#'
-						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[16px] sm:text-[55px] leading-[66px]'
+						className='2xs:py-[4px] sm:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
 					>
 						Facebook{' '}
 						<Image
-							className='2xs:w-[32px] h-[32px] sm:w-[62px] sm:h-[62px]'
+							className='2xs:w-[32px] 2xs:h-[32px] sm:w-[44px] sm:h-[44px]'
 							src={'/images/facebook.svg'}
 							width={62}
 							height={62}
@@ -109,11 +109,11 @@ export default function About() {
 
 					<a
 						href='#'
-						className='2xs:py-[16px] sm:py-[32px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[16px] sm:text-[55px] leading-[66px]'
+						className='2xs:py-[4px] sm:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
 					>
 						Instagram{' '}
 						<Image
-							className='2xs:w-[32px] h-[32px] sm:w-[62px] sm:h-[62px]'
+							className='2xs:w-[32px] 2xs:h-[32px] sm:w-[44px] sm:h-[44px]'
 							src={'/images/instagram.svg'}
 							width={62}
 							height={62}
