@@ -74,52 +74,49 @@ export default function About() {
 				</h2>
 
 				<div
-					className='max-w-[600px] mx-auto p-[44px] bg-cover bg-center text-white 2xs:mb-[32px] sm:mb-[64px] flex flex-col gap-[32px] rounded-[20px]'
+					className='2xs:max-w-[400px] sm:max-w-[600px] mx-auto p-[44px] bg-cover bg-center text-white 2xs:mb-[32px] sm:mb-[64px] flex flex-col gap-[32px] rounded-[20px]'
 					style={{
 						backgroundImage: "url('/images/assets-14.png')",
 					}}
 				>
-					<a
-						href='#'
-						className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
-					>
-						Telegram{' '}
+					<div className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-center items-center gap-[8px] rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'>
+						<a href='#'>
+							Telegram
+						</a>
 						<Image
-							className='2xs:w-[32px] 2xs:h-[32px] sm:w-[44px] sm:h-[44px]'
+							className='2xs:w-[24px] 2xs:h-[24px] sm:w-[44px] sm:h-[44px]'
 							src={'/images/telegram.svg'}
 							width={62}
 							height={62}
 							alt='telegram'
 						/>
-					</a>
+					</div>
 
-					<a
-						href='#'
-						className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
-					>
-						Facebook{' '}
+					<div className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-center items-center gap-[8px] rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'>
+						<a href='#'>
+							Facebook
+						</a>
 						<Image
-							className='2xs:w-[32px] 2xs:h-[32px] sm:w-[44px] sm:h-[44px]'
+							className='2xs:w-[24px] 2xs:h-[24px] sm:w-[44px] sm:h-[44px]'
 							src={'/images/facebook.svg'}
 							width={62}
 							height={62}
-							alt='facebook'
+							alt='telegram'
 						/>
-					</a>
+					</div>
 
-					<a
-						href='#'
-						className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
-					>
-						Instagram{' '}
+					<div className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-center items-center rounded-[16px] gap-[8px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'>
+						<a href='#'>
+							Instagram
+						</a>
 						<Image
-							className='2xs:w-[32px] 2xs:h-[32px] sm:w-[44px] sm:h-[44px]'
+							className='2xs:w-[24px] 2xs:h-[24px] sm:w-[44px] sm:h-[44px]'
 							src={'/images/instagram.svg'}
 							width={62}
 							height={62}
-							alt='instagram'
+							alt='telegram'
 						/>
-					</a>
+					</div>
 				</div>
 
 				<p className='text-center 2xs:mb-[40px] sm:mb-[80px]'>
