@@ -49,7 +49,7 @@ export default function About() {
 			<h2 className='uppercase gradient_text text-center'>Відгуки</h2>
 
 			<div
-				className='bg-cover bg-center mb-[96px] 2xs:py-[40px] lg:py-[90px]'
+				className='bg-cover bg-center 2xs:mb-[40px] sm:mb-[96px] 2xs:py-[40px] lg:py-[90px]'
 				style={{
 					backgroundImage:
 						"linear-gradient(to top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('/images/assets-02.png')",
@@ -63,7 +63,7 @@ export default function About() {
 			</div>
 
 			<div className='container'>
-				<h2 className='uppercase gradient_text text-center mb-[92px] flex flex-col items-center gap-[50px]'>
+				<h2 className='uppercase gradient_text text-center 2xs:mb-[32px] md:mb-[92px] flex flex-col items-center gap-[50px]'>
 					<Image
 						src={'/images/assets-13.png'}
 						width={440}
@@ -74,14 +74,14 @@ export default function About() {
 				</h2>
 
 				<div
-					className='max-w-[600px] mx-auto p-[44px] bg-cover bg-center text-white mb-[100px] flex flex-col gap-[32px] rounded-[20px]'
+					className='max-w-[600px] mx-auto p-[44px] bg-cover bg-center text-white 2xs:mb-[32px] sm:mb-[64px] flex flex-col gap-[32px] rounded-[20px]'
 					style={{
 						backgroundImage: "url('/images/assets-14.png')",
 					}}
 				>
 					<a
 						href='#'
-						className='2xs:py-[4px] sm:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
+						className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0791d1] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
 					>
 						Telegram{' '}
 						<Image
@@ -95,7 +95,7 @@ export default function About() {
 
 					<a
 						href='#'
-						className='2xs:py-[4px] sm:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
+						className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-[#0766ff] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
 					>
 						Facebook{' '}
 						<Image
@@ -109,7 +109,7 @@ export default function About() {
 
 					<a
 						href='#'
-						className='2xs:py-[4px] sm:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
+						className='2xs:py-[4px] sm:py-[8px] lg:py-[24px] 2xs:px-[48px] sm:px-[96px] w-full bg-gradient-to-br from-[#7919fe] via-[#fa373e] to-[#ff2467] flex justify-between items-center rounded-[16px] 2xs:text-[20px] sm:text-[40px] leading-[66px]'
 					>
 						Instagram{' '}
 						<Image
@@ -122,7 +122,7 @@ export default function About() {
 					</a>
 				</div>
 
-				<p className='text-center mb-[112px]'>
+				<p className='text-center 2xs:mb-[40px] sm:mb-[80px]'>
 					Олександр Марченко. All right reserverd.
 				</p>
 			</div>
