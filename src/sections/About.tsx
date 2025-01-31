@@ -63,7 +63,7 @@ export default function About() {
 			</div>
 
 			<div className='container'>
-				<h2 className='uppercase gradient_text text-center 2xs:mb-[32px] md:mb-[92px] flex flex-col items-center gap-[50px]'>
+				<h2 className='uppercase gradient_text text-center 2xs:mb-[32px] md:mb-[56px] flex flex-col items-center gap-[50px]'>
 					<Image
 						src={'/images/assets-13.png'}
 						width={440}
