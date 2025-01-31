@@ -18,7 +18,7 @@ export default function Modules({ cards }: ModulesProps) {
 					className='p-[32px] bg-gradient-to-t from-[#D2E4ED] to-[transparent] border-[1px] border-[#247CA8] rounded-[32px]'
 					key={index}
 				>
-					<div className='2xs:mb-[32px] lg:mb-[70px]'>
+					<div className='2xs:mb-[32px]'>
 						<div>
 							<i>
 								<h3 className='font-semibold flex items-center justify-between'>
